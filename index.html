@@ -14,7 +14,37 @@
   <link href="./css/style.min.css" rel="stylesheet">
 
     <title>Document</title>
+<style type="text/css">
+  html,
+    body,
+    header,
+    .carousel {
+      height: 60vh;
+    }
+
+    @media (max-width: 740px) {
+
+      html,
+      body,
+      header,
+      .carousel {
+        height: 100vh;
+      }
+    }
+
+    @media (min-width: 800px) and (max-width: 850px) {
+
+      html,
+      body,
+      header,
+      .carousel {
+        height: 100vh;
+      }
+    }
+    </style>
+
 </head>
+
 <!--Carousel Wrapper-->
   <!--Carousel Wrapper-->
   <div id="carousel-example-1z" class="carousel slide carousel-fade pt-4" data-ride="carousel">
@@ -103,8 +133,10 @@
               <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
             </div>
           </form>
-        </div
-
+        </div>
+    </nav>
+    
+    <!-- product section -->
 
 
 
