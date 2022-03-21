@@ -22,6 +22,12 @@ type = "text/javascript" >
 
 
     });
+ type="text/javascript">
+
+  $(document).on("click", ".open-orderDialog", function () {
+
+
+  });
 
 
 
